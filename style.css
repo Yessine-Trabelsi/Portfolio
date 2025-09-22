@@ -1,0 +1,69 @@
+button:nth-child(1) {
+  background-color: IndianRed;
+  color: white;
+  width: 110px;
+  height: 110px;
+  margin: 8px;
+  border-radius: 110px;
+  animation: pulse 1.5s infinite;
+}
+button:nth-child(2) {
+  background-color: LightSeaGreen;
+  color: white;
+  width: 110px;
+  height: 110px;
+  margin: 8px;
+  border-radius: 110px;
+  animation: pulse 1.5s infinite;
+}
+button:nth-child(3) {
+  background-color: #dccc2b;
+  color: white;
+  width: 110px;
+  height: 110px;
+  margin: 8px;
+  border-radius: 110px;
+  animation: pulse 1.5s infinite;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  background-color: antiquewhite;
+}
+/* @keyframes pulse {
+  0% {
+    transform :scale(1) ;
+  }
+  50% {
+    transform: scale(1.1) ;
+  }
+  100% {
+    transform : scale(1) ;
+  }
+
+} */
+
+/* Default styles for PC */
+body { font-size: 18px; padding: 30px; }
+
+/* For phones */
+@media (max-width: 600px) {
+  body { font-size: 14px; padding: 10px; }
+}
+display{
+  display: inline ;
+}
+
+
+.skills p{
+  line-height: 10px;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 4px;
+  width: 100% ;
+}
