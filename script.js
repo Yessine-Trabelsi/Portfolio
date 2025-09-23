@@ -2,7 +2,14 @@ resumeBtn = document.querySelector("#resume");
 workBtn = document.querySelector("#myWork");
 skillsBtn = document.querySelector("#mySkills");
 const show = document.querySelector("#show");
+const home = document.querySelector("#home")
 
+const intro = document.createElement("p") ;
+intro.innerHTML=`
+  This is me Yessine a web Developper full stack 💢
+              <br />Go check my work ,my resume and my skills 😇 <br />Contact
+              me for any service and more details 🙏
+`;
 const resume = document.createElement("div");
 resume.innerHTML = `
 <h4>Yessine Trabelsi</h4>
@@ -22,7 +29,7 @@ design,protcols/security/exploitation systems/data base</p>
 </div>
 <br/>
 <h4>Experience:</h4>
-<p>-This portfolio😅 It contains 4 simple web pages go check them on my work</p>
+<p>-This portfolio😅 It contains 4 simple web pages go check them on projects</p>
 `;
 
 const skills = document.createElement("div");
@@ -71,3 +78,9 @@ resumeBtn.addEventListener("click", () => {
   show.innerHTML = ``;
   show.appendChild(resume);
 });
+
+home.addEventListener("click",()=>{
+  show.innerHTML=`` ;
+  show.appendChild(intro) ;
+})
+
