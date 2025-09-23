@@ -22,7 +22,7 @@ design,protcols/security/exploitation systems/data base</p>
 </div>
 <br/>
 <h4>Experience:</h4>
-<p>-This portfolio😅 It contains 4 simple web pages go check them on projects</p>
+<p>-This portfolio😅 It contains 4 simple web pages go check them on My Work</p>
 `;
 
 const skills = document.createElement("div");
