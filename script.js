@@ -80,7 +80,7 @@ resumeBtn.addEventListener("click", () => {
 });
 
 home.addEventListener("click",()=>{
-  show.innerHTML=`` ;
+  show.innerHTML=``  ;
   show.appendChild(intro) ;
 })
 
