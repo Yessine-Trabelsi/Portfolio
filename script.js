@@ -3,6 +3,8 @@ workBtn = document.querySelector("#myWork");
 skillsBtn = document.querySelector("#mySkills");
 const show = document.querySelector("#show");
 const home = document.querySelector("#home")
+const projectN = document.querySelector("#projectN");
+const resumeN = document.querySelector("#resumeN")
 
 const intro = document.createElement("p") ;
 intro.innerHTML=`
@@ -79,6 +81,14 @@ resumeBtn.addEventListener("click", () => {
   show.appendChild(resume);
 });
 
+resumeN.addEventListener("click",()=>{
+  show.innerHTML = `` ;
+  show.appendChild(resume) ;
+})
+projectN.addEventListener("click",()=>{
+  show.innerHTML = `` ;
+  show.appendChild(projects) ;
+})
 home.addEventListener("click",()=>{
   show.innerHTML=``  ;
   show.appendChild(intro) ;
